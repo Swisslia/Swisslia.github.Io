@@ -58,7 +58,7 @@ window.onload = function () {
     const bgSpeed = 1;
 
     // Pipes-Variablen
-    const basePipeSpeed = 4; // Startet bei 4 wie gewünscht
+    const basePipeSpeed = 10; // Startet bei 4 wie gewünscht
     const pipeInterval = 90; // Der zeitliche Abstand bleibt gleich
     const pipeWidth = 60;
     const pipeGap = 200; 
