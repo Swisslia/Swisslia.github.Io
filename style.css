@@ -1,0 +1,32 @@
+dy, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#game-title {
+  color: #ffd700;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Arial Black', Arial, sans-serif;
+  margin-top: 30px;
+  text-shadow: 2px 2px 8px #333;
+  position: relative;
+  z-index: 2;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
